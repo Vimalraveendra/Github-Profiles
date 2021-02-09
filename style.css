@@ -21,6 +21,11 @@ body {
   margin: 12rem 1rem;
 }
 
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
 #main {
   display: flex;
   justify-content: center;
@@ -66,6 +71,7 @@ body {
 }
 .user-info h2 {
   margin: 0;
+  text-transform: capitalize;
 }
 
 .list {
@@ -81,6 +87,10 @@ body {
 
 .fa-heart {
   color: red;
+}
+
+.repos {
+  display: flex;
 }
 
 @media (max-width: 470px) {
