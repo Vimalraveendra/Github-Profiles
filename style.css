@@ -56,9 +56,6 @@ h1 {
 
 .img-container {
   padding-right: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .img {
   width: 10rem;
@@ -89,15 +86,26 @@ h1 {
   color: red;
 }
 
-.repos {
-  display: flex;
+.repo {
+  background-color: #001a58;
+  display: inline-block;
+  padding: 0.25rem;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 2px;
 }
-
 @media (max-width: 470px) {
   .card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+  }
+  .repo {
+    font-size: 0.65rem;
   }
 }
